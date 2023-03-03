@@ -1,0 +1,540 @@
+body {
+    background-color: rgb(54, 53, 67);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fa-solid {
+    color: orange;
+    font-size: 25px;
+    width: 40px;
+}
+
+.imojitext {
+    color: white;
+    font-size: 25px;
+}
+
+.white {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.style {
+    color: rgb(196, 195, 195);
+    ;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    color: rgb(196, 195, 195);
+    font-size: 20px;
+}
+
+.fa-bars {
+    color: rgb(196, 195, 195);
+}
+
+.navcontent {
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    color: white;
+}
+
+a:hover.menu {
+    color: white;
+}
+
+.menus {
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.main {
+    background-color: rgb(54, 53, 67) height: auto;
+    margin: 50px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.infocontainer {
+    padding-top: 50px;
+    position: relative;
+    left: 100px;
+}
+
+.hello {
+    color: rgb(196, 195, 195);
+    font-size: 40px;
+}
+
+.name {
+    color: white;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.line {
+    background-color: orange;
+    height: 5px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.about {
+    line-height: 22px;
+    color: rgb(196, 195, 195);
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(41, 41, 53);
+    border-radius: 11cm;
+
+
+}
+
+.hafeezimg {
+    height: 400px;
+    position: relative;
+    right: 35px;
+}
+
+.servicedetails {
+    padding-top: 60px;
+    position: relative;
+    right: 55px;
+}
+
+.service {
+    font-size: 20px;
+
+    left: 280px;
+    color: rgb(196, 195, 195);
+    line-height: 50px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.show {
+    color: orange;
+    font-size: 19px;
+    line-height: 50px;
+}
+
+.twitter {
+    color: orange;
+    height: 1vh;
+}
+
+
+.face {
+    color: orange;
+
+}
+
+.insta {
+    color: orange;
+
+}
+
+.pin {
+    color: orange;
+
+}
+
+.icon1 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.fa-arrow-right {
+    position: relative;
+    bottom: -3px;
+}
+
+.imagenav {
+    background-color: rgb(64, 64, 71);
+    display: flex;
+    height: 8vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.centerbox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    z-index: 20;
+}
+
+.metaimg {
+    height: 90px;
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+}
+
+.metadiv {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(41, 41, 53);
+}
+
+.googleimg {
+    height: 96px;
+    position: relative;
+    bottom: 28px;
+    right: 12px;
+}
+
+.googlediv {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(41, 41, 53);
+}
+
+.linkedinimg {
+    height: 150px;
+    position: relative;
+    bottom: 55px;
+    right: 50px;
+
+}
+
+.linkeddiv {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(41, 41, 53);
+}
+
+.slackimg {
+    height: 66px;
+    position: relative;
+    bottom: 13px;
+    left: 15px;
+}
+
+.slackdiv {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(41, 41, 53);
+}
+
+.half {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(41, 41, 53);
+    position: relative;
+    bottom: 85px;
+    z-index: 10;
+}
+
+.downcontainer {
+    background-color: rgb(41, 41, 53);
+    width: 80%;
+    height: 50vh;
+    position: relative;
+    left: 180px;
+    bottom: -88px;
+    display: flex;
+    flex-direction: row;
+}
+
+.infotext {
+    color: white;
+    font-size: 30px;
+}
+
+.infopra {
+    color: rgb(196, 195, 195);
+    font-size: medium;
+}
+
+.num1 {
+    color: orange;
+    font-size: larger;
+}
+
+.line1 {
+    color: rgb(196, 195, 195);
+    font-size: medium;
+}
+
+.num3 {
+    color: orange;
+    font-size: larger;
+}
+
+.line3 {
+    color: rgb(196, 195, 195);
+    font-size: medium;
+}
+
+.information {
+    background-color: rgb(41, 41, 53);
+    ;
+    width: 50%;
+    height: 50vh;
+}
+
+.smalldiv {
+    width: 40%;
+    height: auto;
+    position: relative;
+    left: 200px;
+    bottom: 98px;
+
+}
+
+.num2 {
+    color: orange;
+    font-size: larger;
+}
+
+.line2 {
+    font-size: medium;
+    color: rgb(196, 195, 195);
+}
+
+.num4 {
+    color: orange;
+    font-size: larger;
+}
+
+.line4 {
+    font-size: medium;
+    color: rgb(196, 195, 195);
+}
+
+.uiimg {
+    height: 90px;
+    width: 150px;
+}
+
+.line01 {
+    width: 400px;
+    position: relative;
+    bottom: 8px;
+}
+
+.inuum {
+    color: rgb(196, 195, 195);
+    position: absolute;
+    bottom: 245px;
+    right: 295px;
+}
+
+.uitext {
+    position: absolute;
+    bottom: 280px;
+    right: 275px;
+    color: white;
+}
+
+.arrow1 {
+    height: 22px;
+    position: relative;
+    left: 370px;
+    bottom: 84px;
+}
+
+.frontimg {
+    height: 90px;
+    width: 150px;
+    position: relative;
+    bottom: 38px;
+}
+
+.fronttext {
+    position: absolute;
+    bottom: 183px;
+    right: 233px;
+    color: white;
+}
+
+.frontnum {
+    color: rgb(196, 195, 195);
+    position: relative;
+    left: 160px;
+    bottom: 102px;
+}
+
+.line02 {
+    position: relative;
+    bottom: 88px;
+}
+
+.arrow2 {
+    height: 22px;
+    position: relative;
+    left: 370px;
+    bottom: 235px;
+}
+
+.mobileimg {
+    height: 90px;
+    width: 150px;
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+}
+
+.mobiletext {
+    position: relative;
+    bottom: 135px;
+    right: 17px;
+    color: white;
+}
+
+.mobilenum {
+    position: relative;
+    bottom: 148px;
+    left: 163px;
+    color: rgb(196, 195, 195);
+}
+
+.line03 {
+    position: relative;
+    bottom: 140px;
+}
+
+.arrow3 {
+    height: 22px;
+    position: relative;
+    left: 370px;
+    bottom: 215px;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 53, 67);
+    width: 100%;
+    height: 90px;
+    position: relative;
+    bottom: 26px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(54, 53, 67);
+    ;
+    width: 78%;
+    z-index: 3;
+}
+
+.img1 {
+    height: 50px;
+    padding: 10px;
+}
+
+.img2 {
+    height: 45px;
+    padding: 10px;
+}
+
+.img3 {
+    height: 45px;
+    padding: 10px;
+}
+
+.box1 {
+    background-color: rgb(64, 64, 71);
+    height: 234px;
+    width: 30%;
+}
+
+.box2 {
+    background-color: rgb(64, 64, 71);
+    height: 234px;
+    width: 30%
+}
+
+.box3 {
+    background-color: rgb(64, 64, 71);
+    height: 234px;
+    width: 30%
+}
+
+.lastdiv {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(109, 109, 119);
+    position: relative;
+    bottom: -80px;
+    z-index: 2;
+}
+
+.text01 {
+    position: relative;
+    right: 48px;
+    bottom: -15px;
+    color: white;
+}
+
+.pra01 {
+    position: relative;
+    left: 20px;
+    bottom: -10px;
+    color: rgb(192, 189, 189);
+    line-height: 22px;
+}
+
+.text02 {
+    position: relative;
+    right: 48px;
+    bottom: -15px;
+    color: white;
+}
+
+.pra02 {
+    position: relative;
+    left: 20px;
+    bottom: -10px;
+    color: rgb(192, 189, 189);
+    line-height: 22px;
+}
+
+.text03 {
+    position: relative;
+    right: 48px;
+    bottom: -15px;
+    color: white;
+}
+
+.pra03 {
+    position: relative;
+    left: 20px;
+    bottom: -10px;
+    color: rgb(192, 189, 189);
+    line-height: 22px;
+}
